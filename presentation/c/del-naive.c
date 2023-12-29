@@ -11,9 +11,9 @@ void delete(struct node* n) {
 
 void delete_r(struct node* n) {
   if (n->left)
-    free_node(n->left);
+    delete_r(n->left);
   if (n->right)
-    free_node(n->right);
+    delete_r(n->right);
 
   free_node(n);
 }

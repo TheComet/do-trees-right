@@ -10,4 +10,4 @@ int a = make_node(tree);
 int b = make_node(tree);
 int c = make_node(tree);
 tree->nodes[a].left = b;
-tree->nodes[a].left = c;
+tree->nodes[a].right = c;

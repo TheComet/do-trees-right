@@ -13,5 +13,5 @@ struct node* find(
     if (n = find(r->right, data))
       return n;
 
-    return NULL;
+  return NULL;
 }
