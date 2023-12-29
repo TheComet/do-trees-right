@@ -1,0 +1,11 @@
+*
+!.gitignore
+!/c
+!/c/*
+!/dot
+!/dot/*
+!/img
+!/img/*
+!/trees.pdf
+!/trees.tex
+
